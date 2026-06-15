@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="format.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+</head>
+<body>
+    <div class="container">
+        <h2>regitration form</h2>
+        
+        <form autocomplete="off">
+            <fieldset>
+                <legend>personal information</legend>
+                <label>Full Name:</label><br>
+                <input type="text" name="fullname" id="full name" placeholder="Enter your name">
+                <p>
+                <label for="">password:</label><br>
+                <input type="password" name="user_pass" placeholder="Enter your password" autocomplete="new-password">
+            </p>
+            <p>
+                <label for="">Email:</label><br>
+                <input type="email" name="user_email" placeholder="Enter your email" autocomplete="off">
+            </p>
+            <p>
+                <label for="">contact:</label><br>
+                <input type="text" name="contact" placeholder="Enter your phone number">
+            </p>
+            <p>
+                <label for="">Date of Birth:</label><br>
+                <input type="date" name="dob">
+            </p>
+            <p>
+            <label for="">choose file:</label><br>
+            <input type="file" name="file">
+        </p>
+
+            </fieldset>
+
+
+            <fieldset>
+                <legend>other Details </legend>
+                <label for="">Gender:</label><br>
+                <input type="radio" name="gender" value="male">
+    Male
+            <input type="radio" name="gender" value="female">
+    female
+            <input type="radio" name="gender" value="other">
+    other:
+    <br><br>
+        <label for="">Hobbies:</label><br>
+        <input type="checkbox" name="hobby" value="playing">playing
+        
+        <input type="checkbox" name="hobby" value="singing">singing
+
+        <input type="checkbox" name="hobby" value="dancing">dancing
+            </fieldset>
+
+            <fieldset>
+                <legend>Education</legend>
+
+                <label for="">subjects:</label><br>
+                <select name="subjects">
+                <option value="">select subjects</option>
+                <option value="">computer application</option>
+                <option value="">python</option>
+                <option value="">html</option>
+            </select>
+            </fieldset>
+            <div class="btns">
+                <button type="submit">submit</button>
+                <button type="reset">reset</button>
+
+            </div>
+
+        </form>
+
+    </div>
+</body>
+</html>
